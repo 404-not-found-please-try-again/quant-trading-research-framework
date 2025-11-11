@@ -1,0 +1,107 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# 环境变量和密钥
+.env
+.env.local
+*.key
+*.pem
+*.secret
+config/secrets.yaml
+config/*.env
+
+# 日志文件
+logs/
+*.log
+
+# 数据文件（原始数据，可能很大）
+data/raw_data.csv
+data/*.csv
+data/*.parquet
+data/*.h5
+data/*.hdf5
+
+# 模型文件（训练好的模型，文件很大）
+results/models/*.joblib
+results/models/*.h5
+results/models/*.pkl
+results/models/*.pth
+results/models/*.pt
+
+# 回测结果（可能包含大量CSV文件）
+results/backtesting/*.csv
+results/hyperparameter_tuning/*.csv
+
+# 模拟盘状态和交易记录（包含个人交易信息）
+results/paper_trading/paper_trading_state.json
+results/paper_trading/daily_report_*.json
+results/paper_trading/trade_history.csv
+
+# 可视化图片（可选，如果不想提交生成的图片）
+# results/plots/*.png
+# results/plots/*.jpg
+
+# 临时文件
+*.tmp
+*.temp
+.cache/
+
+# 系统文件
+Thumbs.db
+.DS_Store
+
+# 备份文件
+*.bak
+*.backup
+*~
+
+# 测试覆盖率
+.coverage
+htmlcov/
+.pytest_cache/
+
+# 其他
+*.db
+*.sqlite
+*.sqlite3
+
