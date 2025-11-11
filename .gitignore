@@ -68,6 +68,12 @@ results/models/*.pkl
 results/models/*.pth
 results/models/*.pt
 
+# 模型相关的报告和中间文件
+results/models/*_importance_*.csv
+results/models/*_probabilities_*.csv
+results/models/feature_selection_report_*.csv
+results/models/selected_features_*.txt
+
 # 回测结果（可能包含大量CSV文件）
 results/backtesting/*.csv
 results/hyperparameter_tuning/*.csv
